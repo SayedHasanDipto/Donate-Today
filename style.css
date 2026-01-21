@@ -1,8 +1,4 @@
-
-
-
-
-button{
+button {
     cursor: pointer;
 }
 
@@ -11,7 +7,7 @@ button{
 }
 
 .btn:hover {
-    background-color: #ff5959dd;
+    background-color: rgba(255, 0, 0, 0.781);
     color: black;
 }
 
@@ -51,12 +47,17 @@ button{
 .card {
     font-size: 30px;
     color: #FF5959;
-    border: 1px solid #ff595945;
+    border: 2px solid #ff595936;
     font-weight: bold;
     padding: 44px 23px;
     border-radius: 5px;
     width: 136px;
     height: 123px;
+}
+
+.card:hover {
+    border: 2px solid #ff595962;
+    color: rgba(255, 0, 0, 0.781);
 }
 
 #card-2 {
@@ -68,11 +69,13 @@ button{
     .title {
         font-size: 2rem;
     }
-    .caption{
+
+    .caption {
         width: 100%;
         /* border: 2px solid red; */
     }
-    .card-container{
+
+    .card-container {
         display: flex;
         flex-direction: column;
         align-items: center;
