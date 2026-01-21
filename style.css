@@ -53,12 +53,12 @@ button {
     border-radius: 5px;
     width: 136px;
     height: 123px;
+    cursor: pointer;
 }
 
 .card:hover {
     border: 2px solid #ff595962;
     color: rgba(255, 0, 0, 0.781);
-    cursor: pointer;
 }
 
 #card-2 {
