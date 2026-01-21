@@ -51,6 +51,7 @@ button{
 .card {
     font-size: 30px;
     color: #FF5959;
+    border: 1px solid #ff595945;
     font-weight: bold;
     padding: 44px 23px;
     border-radius: 5px;
