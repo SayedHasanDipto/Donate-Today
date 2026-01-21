@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
     <title>DonateToday</title>
 </head>
+
 <body>
-    
+    <main>
+        <section class="flex max-sm:flex-wrap max-w-[1440px] mx-auto my-[66px] items-center justify-around">
+
+            <div class="m-5">
+                <h1 class="text-[65px] max-sm:text-[2rem] font-bold mb-[20px]">Let’s Help <br> Those Who Are <br> More
+                    In Need</h1>
+                <p class="text-lg mb-[30px] text-[#707070]">Lorem ipsum dolor sit amet, usu cu esse possit <br>
+                    referrentur, at eam falli deterruisset. No duo populo <br>
+                    animal noluisse, enim</p>
+                <div class="flex max-sm:flex-wrap gap-5 font-bold">
+                    <button class="bg-[#FF5959] text-white px-[21px] py-[18px] rounded-lg">Donate Now</button>
+                    <button class="text-[#595959]"><i class="fa-solid fa-play"></i> Watch Video</button>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="./images/hero.png" alt="Hero Images" class="w-[460px] max-sm:w-[300px] align-middle">
+            </div>
+        </section>
+        <section class="flex max-sm:flex-wrap max-w-[1440px] mx-auto my-[66px] items-center justify-around">
+            <div>
+                <h3 class="title">Donate Today</h3>
+                <p class="caption">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli
+                    deterruisset. No duo populo animal noluisse, enim</p>
+                <div class="card-container">
+                    <h1 class="card">100tk</h1>
+                    <h1 class="card" id="card-2">200tk</h1>
+                    <h1 class="card">500tk</h1>
+                    <h1 class="card">1000tk</h1>
+                    <h1 class="card">5000tk</h1>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
