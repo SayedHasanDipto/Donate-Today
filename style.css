@@ -42,6 +42,7 @@ button {
     display: flex;
     /* border: 2px solid red; */
     gap: 22px;
+    margin-bottom: 60px;
 }
 
 .card {
@@ -59,6 +60,14 @@ button {
 .card:hover {
     border: 2px solid #ff595962;
     color: rgba(255, 0, 0, 0.781);
+}
+
+.cash-ammount{
+    font-size: 18px;
+    text-align: center;
+    color: #707070;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #70707057;
 }
 
 #card-2 {
