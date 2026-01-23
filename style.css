@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.font-family {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
 button {
     cursor: pointer;
 }
@@ -9,6 +17,15 @@ button {
 .btn:hover {
     background-color: rgba(255, 0, 0, 0.781);
     color: black;
+}
+
+.btn-1 {
+    transition: 0.3s;
+}
+
+.btn-1:hover {
+    color: black;
+    background-color: #0000001c;
 }
 
 
@@ -55,14 +72,35 @@ button {
     width: 136px;
     height: 123px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .card:hover {
-    border: 2px solid #ff595962;
+    border: 2px solid #FF5959;
     color: rgba(255, 0, 0, 0.781);
 }
 
-.cash-ammount{
+.card-01,
+.card-02,
+.card-03 {
+    transition: 0.3s;
+}
+
+
+
+.card-01:hover {
+    background-color: rgba(79, 157, 166, 0.200);
+}
+
+.card-02:hover {
+    background-color: rgba(255, 89, 89, 0.200);
+}
+
+.card-03:hover {
+    background-color: rgba(255, 187, 0, 0.400);
+}
+
+.cash-ammount {
     font-size: 18px;
     text-align: center;
     color: #707070;
@@ -70,8 +108,8 @@ button {
     border-bottom: 1px solid #70707057;
 }
 
-#card-2 {
-    border: 2px solid #FF5959;
+.footer-font {
+    font-family: "Lobster", sans-serif;
 }
 
 @media screen and (max-width: 640px) {
